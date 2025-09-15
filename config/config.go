@@ -6,12 +6,12 @@ import (
 )
 
 const (
-	CsvName       = "./1487_202505_link_116981788283.csv"
+	CsvName       = "./BillingManagementMonthReport202508.csv"
 	MysqlUser     = "root"
 	MysqlPassword = "ql2252528"
 	MysqlHost     = "127.0.0.1"
 	MysqlPort     = 3306
-	MysqlDbName   = "aws-hk-bill202505"
+	MysqlDbName   = "202508"
 )
 
 func GetMonthDay() string {
